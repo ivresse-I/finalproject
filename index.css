@@ -1,3 +1,8 @@
+.Google1{
+    position:absolute;
+    top:60px;
+    left:100px;
+}
 #G {
     position: relative;
     display: inline-block;
@@ -21,6 +26,11 @@
 #G:hover img.Gback {
     opacity:1;
 }
+.Google2{
+    position:relative;
+    top:60px;
+    left:280px;
+}
 #O {
     position: relative;
     display: inline-block;
@@ -42,5 +52,33 @@
 }
 
 #O:hover img.Oback {
+    opacity:1;
+}
+.Google3{
+    position:absolute;
+    top:65px;
+    left:480px;
+}
+#O2 {
+    position: relative;
+    display: inline-block;
+    
+}
+#O2 img {
+    transition: opacity 1.5s ease-in-out;
+}
+
+#O2 img.O2back {
+    z-index:-1;
+    opacity:0;
+    position:absolute;
+    left:0;
+}
+
+#O2:hover img.O2front {
+    opacity:0;
+}
+
+#O2:hover img.O2back {
     opacity:1;
 }
